@@ -1,16 +1,60 @@
 # flutter_shopping_api_app
 
-A new Flutter project.
-
 ## Getting Started
+Get-X was used for state managements, dependencies injection and route managements in this App, as it's a lightweight state manager, efficient and has minimal consumption of the device's RAM.
 
-This project is a starting point for a Flutter application.
+### External Dependencies
+- get
+- http
+- flutter_staggered_grid_view
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Folder Structure
+Here is the core folder structure which flutter provides.
+<code>
+flutter-app/
+ |- android
+ |- build
+ |- ios
+ |- lib
+ |- test
+ </code>
+ 
+ Here is the folder structure used in this project
+<code> 
+lib/
+|- controllers/
+|- models/
+|- services/
+|- views/
+|- widgets/
+|- main.dart</code>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+#### SubFolders Structure
+
+|- controllers/
+<code>app_controller.dart</code>
+
+|- Model/
+<code>product_model.dart</code>
+
+|- services/
+<code>
+  api_service.dart
+  app_bindings.dart
+</code>
+
+|- views/
+<code>
+  details.dart
+  homepage.dart
+</code>
+
+|- widgets/
+<code>
+  product_widget.dart
+</code>
+
+## App Screens
+  <img src="https://user-images.githubusercontent.com/120676400/221721178-4605a534-1e62-4240-ab35-817b2c359c38.png" width="330" height="740">  <img src="https://user-images.githubusercontent.com/120676400/221721250-7b9850bf-ce4e-4849-8656-677b8a24778e.png" width="330" height="740">  
